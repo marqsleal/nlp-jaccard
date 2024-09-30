@@ -1,4 +1,4 @@
-# JACCARD NLP - Jaccard Index
+# NLP JACCARD - Jaccard Index
 _Projeto para fins acadêmicos criando uma implementação manual do Índice de Jaccard na linguagem Python._
 
 ## Dependências 
@@ -51,7 +51,7 @@ def jaccard_index(token1: str, token2: str, printIndex=False) -> float:
 - Utilizando `set()` pois permite um acesso rápido, guardando os itens em uma coleção de elementos únicos e não-ordenados;
 - Utilizando `unidecode` para normalização;
 
-## **BONUS**: Jaccard com SQL
+## **BONUS**: Índice de Jaccard com SQL
 
 Considerando:
 ```sql
